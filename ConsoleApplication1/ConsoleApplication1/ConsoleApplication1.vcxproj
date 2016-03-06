@@ -142,7 +142,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="arrays_in_c.c" />
+    <ClCompile Include="char_array.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="char_array.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

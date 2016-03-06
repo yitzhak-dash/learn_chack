@@ -1,6 +1,19 @@
 #include <stdio.h>
 int main()
 {
+	printArr();
+	printStr();
+}
+
+int printStr()
+{
+	char str_a[20];
+	strcpy(str_a, "Hello world!\n");
+	printf(str_a);
+}
+
+int printArr()
+{
 	char str_a[20];
 	str_a[0] = 'H';
 	str_a[1] = 'e';
